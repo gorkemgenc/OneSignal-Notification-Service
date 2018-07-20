@@ -1,14 +1,14 @@
 # OneSignal-Push-Notification-Service
 
-- Explanations
+## Explanations
 
 One signal is an free service to send push notification to any platform and this repository is an basic example of how OneSignal push notification services is implemented for mobile written in C# (Backend).
 
-- Implementations
+## Implementations
 
 This part shows how to send message via the Google GCM and Apple APNS services.
 
-=> JSON TYPE:
+## JSON TYPE:
 
         // IOS APNS
         
