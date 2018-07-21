@@ -10,7 +10,7 @@ This part shows how to send message via the Google GCM and Apple APNS services.
 
 ## JSON TYPE:
 
-        // IOS APNS
+        // APNS (FOR IOS)
         
         var obj = new
         {
@@ -34,7 +34,7 @@ This part shows how to send message via the Google GCM and Apple APNS services.
         string s = javaScriptSerializer.Serialize(obj);
         bytes = Encoding.UTF8.GetBytes(s);
 
-        // Android GCM
+        // GCM (FOR ANDROID)
         
         {
             var obj = new
